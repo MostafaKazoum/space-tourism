@@ -1,6 +1,6 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from './js/three.module.js';
+import { GLTFLoader } from './js/GLTFLoader.js';
+import { OrbitControls } from './js/OrbitControls.js';
 
 // Selectors
 const container = document.querySelector(".planet");
